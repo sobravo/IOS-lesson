@@ -97,12 +97,9 @@
 		655B13181CFF52CC00192D76 /* lesson-one */ = {
 			isa = PBXGroup;
 			children = (
-				655B13191CFF52CC00192D76 /* AppDelegate.swift */,
+				655B13471D0319A900192D76 /* Supporting Files */,
 				655B131B1CFF52CC00192D76 /* ViewController.swift */,
 				655B131D1CFF52CC00192D76 /* Main.storyboard */,
-				655B13201CFF52CC00192D76 /* Assets.xcassets */,
-				655B13221CFF52CC00192D76 /* LaunchScreen.storyboard */,
-				655B13251CFF52CC00192D76 /* Info.plist */,
 			);
 			path = "lesson-one";
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				655B133B1CFF52CC00192D76 /* Info.plist */,
 			);
 			path = "lesson-oneUITests";
+			sourceTree = "<group>";
+		};
+		655B13471D0319A900192D76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				655B13251CFF52CC00192D76 /* Info.plist */,
+				655B13221CFF52CC00192D76 /* LaunchScreen.storyboard */,
+				655B13201CFF52CC00192D76 /* Assets.xcassets */,
+				655B13191CFF52CC00192D76 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "lesson-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sobravo.lesson-one";
@@ -415,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "lesson-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sobravo.lesson-one";
